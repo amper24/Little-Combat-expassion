@@ -1,0 +1,14 @@
+name: WeaponSystem
+version: '1.1'
+main: dev.moonaticks.weaponSystem.WeaponSystem
+api-version: '1.21'
+commands:
+  weapontag:
+    description: Управление тегами оружия
+    usage: /weapontag <twohanded|offhanded|clear|check> [remove]
+    permission: weaponsystem.tags
+    permission-message: §cУ вас нет прав на использование этой команды!
+permissions:
+  weaponsystem.use:
+    description: Доступ к базовой команде weapontag
+    default: op

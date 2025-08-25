@@ -1,0 +1,7 @@
+# Настройки системы оружия
+cooldown:
+  1_frame: ""
+  2_frame: ""
+  3_frame: ""
+  4_frame: ""
+  color: "WHITE"
